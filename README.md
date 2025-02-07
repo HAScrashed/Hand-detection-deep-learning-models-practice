@@ -1,7 +1,7 @@
 # About
 ## Created by Bartosz Sorek & Robert Pintera
 ### General information
-The project constinst of multiple Jupyter Notebooks with Python code with **results and code** of creating own deep learning models. More comments are in notebooks. 
+The project consists of multiple Jupyter Notebooks with Python code with **results and code** of creating own deep learning models. More comments are in notebooks. 
 - 6_finger_numbers_recognition has model created by Bartosz Sorek and trained on kaggle dataset [Finger Digits 0-5](https://www.kaggle.com/datasets/roshea6/finger-digits-05). It's capable of recognising 6 gestures basing on black and white images regardless of image rotation.
 - 20_gestures_recognition has model created by Bartosz Sorek and trained on kaggle dataset [Hand Gesture Recognition Dataset](https://www.kaggle.com/datasets/aryarishabh/hand-gesture-recognition-dataset). It's capable of recognising 20 gestures basing on black and white images regardless of image rotation.
 - CombinedModels is combination of trained model 6_finger_numbers_recognition by Bartosz Sorek and hand mask creation model (segmentation) created by Robert Pintera. By adding additional code and own layer, models can connect and use advantage of both types.
