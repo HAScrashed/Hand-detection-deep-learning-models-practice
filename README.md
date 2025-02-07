@@ -8,17 +8,21 @@ The project constinst of multiple Jupyter Notebooks with Python code with **resu
 ### Media
 - **Classification results**
   
+![Recognition results](Preview/RecognitionResults.JPG)
+![Recognition results](Preview/Results2.JPG)
 - **Combined model schema**
-  
+
+![Recognition results](Preview/Connecting.JPG)
 - **Combined model output**
-  
+
+![Recognition results](Preview/CombinedOuput.JPG)
 ### Details (snippets from the raport)
 #### Purpose of the project
 The main goal of the project was the AI creation of hand image grayscale masks based on full-color hand images and using such data for further applications. Investment in the project has expanded our knowledge in the field of deep learning.
 #### Problem definition
 Modern technologies increase the range of possibilities for interaction with various devices without the need to use physical controllers. Using machine learning and deep learning algorithms, inter alia it is possible to detect and interpret hand and finger gestures.
 These technologies can be helpful in different areas of life. They can be applied in virtual reality (VR) or augmented reality (AR) by tracking hand and detecting relevant movements that can be useful for performing an appropriate operation. Hand detection can also be beneficial for deaf people who use sing language to communicate with others. These technologies can be used to ease interaction with devices for invalids.
-Main focus was on preprocessing and examining still images displaying a hand in various positions. Models made by us are able to create image masks allowing for hand separation from the rest of the image. Thanks to their universality, they are a proper entry for more complex deep learning models responsible for hand pose estimation and key-point tracking. To present effectiveness and usage of such, we have created and trained classification models capable of interpreting hand gestures and predicting hand rotation in 2D space. Such types of models combined produce the powerful all-in-one tool.
+Main focus was on preprocessing and examining still images displaying a hand in various positions. Models made by us are able to create image masks allowing for hand separation from the rest of the image. Thanks to their universality, they are a proper entry for more complex deep learning models responsible for hand pose estimation and key-point tracking. Such types of models combined produce the powerful all-in-one tool.
 #### Models’ design
 For detecting hand masks, the DeepLabV3+ and Unet models were chosen. Both are suitable for solving this problem.
 DeepLabV3+ is an advanced encoder-decoder based segmentation model that is often used in tasks requiring high accuracy. Being an improved version of DeepLabV3, it is characterized by:
