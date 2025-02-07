@@ -39,4 +39,14 @@ Models use categorical cross-entropy and y sets are one-hot encoded for correct 
 #### Model combination
 Trained models - mask creation model with the gesture classification were combined into one big model. It was performed on Unet structured model and 6-gesture classification model. To combine models, there was a need for an additional layer, so it has been created. Self-made BoundingBoxCropLayer is capable of cropping full-size generated mask image to just mask pixels, converting pixels to binary format and rescaling results to input dimensions of the second model. Additionally, it saves information if the mask has any non-zero pixels.
 
+**Hand photos come from FreiHand dataset**
+```Py
+@InProceedings{Freihand2019,
+  author    = {Christian Zimmermann, Duygu Ceylan, Jimei Yang, Bryan Russell, Max Argus and Thomas Brox},
+  title     = {FreiHAND: A Dataset for Markerless Capture of Hand Pose and Shape from Single RGB Images},
+  booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+  year = {2019},
+  url          = "https://lmb.informatik.uni-freiburg.de/projects/freihand/"
+}
+```
 
